@@ -42,7 +42,7 @@ library_management/
 ├── regular_member.rb        # Regular member type
 ├── member_composition.rb    # Composition-based member
 ├── member_type.rb           # Member type definitions
-├── Library.rb               # Main library controller
+├── library.rb               # Main library controller
 ├── exceptions.rb            # Custom exception hierarchy
 ├── main.rb                  # Demo & testing
 └── README.md               # This file
