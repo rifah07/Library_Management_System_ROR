@@ -1,0 +1,293 @@
+{
+  "library_name": "City Public Library",
+  "books": [
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "isbn": "978-0451524935",
+      "genre": "Dystopian",
+      "publication_year": 1949,
+      "availability_status": "checked_out",
+      "checked_out_by_id": 301,
+      "due_date": "2025-11-17"
+    },
+    {
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "isbn": "978-0061120084",
+      "genre": "Fiction",
+      "publication_year": 1960,
+      "availability_status": "checked_out",
+      "checked_out_by_id": 301,
+      "due_date": "2025-11-17"
+    },
+    {
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "isbn": "978-0743273565",
+      "genre": "Classic",
+      "publication_year": 1925,
+      "availability_status": "checked_out",
+      "checked_out_by_id": 301,
+      "due_date": "2025-11-20"
+    },
+    {
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "isbn": "978-0060850524",
+      "genre": "Dystopian",
+      "publication_year": 1932,
+      "availability_status": "checked_out",
+      "checked_out_by_id": 301,
+      "due_date": "2025-11-20"
+    },
+    {
+      "title": "Harry Potter",
+      "author": "J.K. Rowling",
+      "isbn": "978-0439708180",
+      "genre": "Fantasy",
+      "publication_year": 1997,
+      "availability_status": "checked_out",
+      "checked_out_by_id": 301,
+      "due_date": "2025-11-20"
+    },
+    {
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "isbn": "978-0547928227",
+      "genre": "Fantasy",
+      "publication_year": 1937,
+      "availability_status": "available",
+      "checked_out_by_id": null,
+      "due_date": null
+    },
+    {
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "isbn": "978-0441172719",
+      "genre": "Sci-Fi",
+      "publication_year": 1965,
+      "availability_status": "available",
+      "checked_out_by_id": null,
+      "due_date": null
+    },
+    {
+      "title": "Physics 101",
+      "author": "Dr. Jones",
+      "isbn": "978-1234567890",
+      "genre": "Science",
+      "publication_year": 2020,
+      "availability_status": "available",
+      "checked_out_by_id": null,
+      "due_date": null
+    },
+    {
+      "title": "Chemistry",
+      "author": "Dr. Lee",
+      "isbn": "978-1234567891",
+      "genre": "Science",
+      "publication_year": 2021,
+      "availability_status": "available",
+      "checked_out_by_id": null,
+      "due_date": null
+    },
+    {
+      "title": "Biology",
+      "author": "Dr. Wang",
+      "isbn": "978-1234567892",
+      "genre": "Science",
+      "publication_year": 2019,
+      "availability_status": "available",
+      "checked_out_by_id": null,
+      "due_date": null
+    }
+  ],
+  "members": [
+    {
+      "name": "Alice Johnson",
+      "member_id": 101,
+      "member_class": "Member",
+      "member_type": "Member",
+      "checked_book_isbns": [],
+      "checkout_history": [
+        {
+          "book_isbn": "978-0451524935",
+          "checkout_days": "",
+          "return_date": "2025-11-15"
+        },
+        {
+          "book_isbn": "978-0061120084",
+          "checkout_days": "",
+          "return_date": "2025-11-15"
+        },
+        {
+          "book_isbn": "978-0743273565",
+          "checkout_days": "",
+          "return_date": "2025-11-15"
+        },
+        {
+          "book_isbn": "978-0060850524",
+          "checkout_days": "",
+          "return_date": "2025-11-15"
+        },
+        {
+          "book_isbn": "978-0451524935",
+          "checkout_days": "",
+          "return_date": "2025-11-15"
+        }
+      ]
+    },
+    {
+      "name": "Bob Smith",
+      "member_id": 102,
+      "member_class": "Member",
+      "member_type": "Member",
+      "checked_book_isbns": [],
+      "checkout_history": [
+        {
+          "book_isbn": "978-0061120084",
+          "checkout_days": "",
+          "return_date": "2025-11-15"
+        },
+        {
+          "book_isbn": "978-0743273565",
+          "checkout_days": "",
+          "return_date": "2025-11-15"
+        }
+      ]
+    },
+    {
+      "name": "Charlie Brown",
+      "member_id": 201,
+      "member_class": "Student",
+      "member_type": "Student",
+      "checked_book_isbns": [],
+      "checkout_history": [
+        {
+          "book_isbn": "978-0439708180",
+          "checkout_days": "",
+          "return_date": "2025-11-15"
+        },
+        {
+          "book_isbn": "978-0547928227",
+          "checkout_days": "",
+          "return_date": "2025-11-15"
+        }
+      ]
+    },
+    {
+      "name": "Dr. Smith",
+      "member_id": 202,
+      "member_class": "Faculty",
+      "member_type": "Faculty",
+      "checked_book_isbns": [],
+      "checkout_history": [
+        {
+          "book_isbn": "978-0441172719",
+          "checkout_days": "",
+          "return_date": "2025-11-15"
+        },
+        {
+          "book_isbn": "978-1234567890",
+          "checkout_days": "",
+          "return_date": "2025-11-15"
+        },
+        {
+          "book_isbn": "978-1234567891",
+          "checkout_days": "",
+          "return_date": "2025-11-15"
+        },
+        {
+          "book_isbn": "978-1234567892",
+          "checkout_days": "",
+          "return_date": "2025-11-15"
+        },
+        {
+          "book_isbn": "978-0060850524",
+          "checkout_days": "",
+          "return_date": "2025-11-15"
+        }
+      ]
+    },
+    {
+      "name": "Jane Doe",
+      "member_id": 203,
+      "member_class": "RegularMember",
+      "member_type": "Regular Member",
+      "checked_book_isbns": [],
+      "checkout_history": [
+        {
+          "book_isbn": "978-0451524935",
+          "checkout_days": "",
+          "return_date": "2025-11-15"
+        },
+        {
+          "book_isbn": "978-0439708180",
+          "checkout_days": "",
+          "return_date": "2025-11-15"
+        },
+        {
+          "book_isbn": "978-0547928227",
+          "checkout_days": "",
+          "return_date": "2025-11-15"
+        }
+      ]
+    },
+    {
+      "name": "Emma Watson",
+      "member_id": 301,
+      "member_class": "MemberComposition",
+      "member_type": "#<FacultyType:0x000001e56b578af8>",
+      "checked_book_isbns": [
+        "978-0451524935",
+        "978-0061120084",
+        "978-0743273565",
+        "978-0060850524",
+        "978-0439708180"
+      ],
+      "checkout_history": [
+        {
+          "book_isbn": "978-0451524935",
+          "checkout_days": "",
+          "return_date": null
+        },
+        {
+          "book_isbn": "978-0061120084",
+          "checkout_days": "",
+          "return_date": null
+        },
+        {
+          "book_isbn": "978-0743273565",
+          "checkout_days": "",
+          "return_date": null
+        },
+        {
+          "book_isbn": "978-0060850524",
+          "checkout_days": "",
+          "return_date": null
+        },
+        {
+          "book_isbn": "978-0439708180",
+          "checkout_days": "",
+          "return_date": null
+        }
+      ]
+    },
+    {
+      "name": "Prof. Mc Gonagall",
+      "member_id": 302,
+      "member_class": "MemberComposition",
+      "member_type": "#<FacultyType:0x000001e56b57a268>",
+      "checked_book_isbns": [],
+      "checkout_history": []
+    },
+    {
+      "name": "Harry Miller",
+      "member_id": 303,
+      "member_class": "MemberComposition",
+      "member_type": "#<RegularMemberType:0x000001e56b57a150>",
+      "checked_book_isbns": [],
+      "checkout_history": []
+    }
+  ]
+}
