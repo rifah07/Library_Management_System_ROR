@@ -1,5 +1,22 @@
 # frozen_string_literal: true
 
+# ============================================================================
+# Library Management System - Demo & Testing Suite
+# ============================================================================
+#
+# This file demonstrates all features of the Library Management System:
+# - CRUD operations for books and members
+# - Checkout/return workflows with validation
+# - Search functionality (title, author, genre)
+# - Exception handling
+# - Different member types (inheritance vs composition)
+# - Data persistence (save/load)
+# - Checkout history tracking
+#
+# Author: Rifah Sajida Deya
+# Date: November 2025
+# ============================================================================
+
 require 'date'
 require 'json'
 require_relative 'Book'
