@@ -255,13 +255,13 @@ class Library
 
   # Load books from JSON data
   def load_books(book_data)
-    book_data.each do |book_data|
+    book_data.each do |bd|
       book = Book.new(
-        book_data[:title],
-        book_data[:author],
-        book_data[:isbn],
-        book_data[:genre],
-        book_data[:publication_year]
+        bd[:title],
+        bd[:author],
+        bd[:isbn],
+        bd[:genre],
+        bd[:publication_year]
       )
 
       # Restore status (will reconnect member later)
